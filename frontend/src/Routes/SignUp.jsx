@@ -17,7 +17,7 @@ export const SignUp = () => {
     const btnHandler = ()=>{
         // console.log("userData", userData)
 
-        axios.post('http://localhost:9000/user/register', userData)
+        axios.post('https://breakable-cloak-wasp.cyclic.cloud/user/register', userData)
         .then((res)=>{
             console.log(res.data)
             toast({

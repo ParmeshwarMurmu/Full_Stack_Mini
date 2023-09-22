@@ -10,7 +10,7 @@ export const Product = () => {
 
   useEffect(()=>{
 
-    axios.get('http://localhost:9000/user/cart', {
+    axios.get('https://breakable-cloak-wasp.cyclic.cloud/user/cart', {
       headers: {
           'Authorization': `Bearer ${token}`
       }

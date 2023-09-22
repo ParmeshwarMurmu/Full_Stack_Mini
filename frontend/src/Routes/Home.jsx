@@ -12,7 +12,7 @@ export const Home = () => {
 
   useEffect(()=>{
   
-    axios.get('http://localhost:9000/')
+    axios.get('https://breakable-cloak-wasp.cyclic.cloud/')
       .then((res)=>{
           // console.log(res.data)
           setData(res.data.msg)

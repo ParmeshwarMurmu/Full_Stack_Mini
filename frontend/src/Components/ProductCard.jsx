@@ -9,7 +9,7 @@ export const ProductCard = ({name, username, _id, address}) => {
 
 
     const handleCart = ()=>{
-        axios.post('http://localhost:9000/user/addToCart', {productId: _id}, {
+        axios.post('https://breakable-cloak-wasp.cyclic.cloud/user/addToCart', {productId: _id}, {
             headers: {
                 'Authorization': `Bearer ${token}`
             }
